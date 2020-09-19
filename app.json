@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/scan/scan",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4997D2",
+    "navigationBarTitleText": "悦读文化讲堂",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "custom":true,
+    "backgroundColor": "#F8F8F8",
+    "borderStyle": "black",
+    "color": "#555555",
+    "selectedColor": "#4997D2",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "活动",
+      "iconPath": "icon/活动未选中状态.png",
+      "selectedIconPath": "icon/活动选中状态.png"
+      },
+     
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/我的未选中状态.png",
+        "selectedIconPath": "icon/我的选中状态.png"
+        }
+      ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

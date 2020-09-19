@@ -1,0 +1,16 @@
+<scroll-view bindscroll='layoutScroll' scroll-y="true" style="height: 100vh;">
+      <swiper indicator-dots="{{indicatorDots}}">
+        <block wx:for="{{imgs}}"  wx:for-item="item" wx:for-index="show-imgs">
+          <swiper-item>
+            <image src="{{item}}" class="slideImage"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+<text class="title">最近活动</text>
+<div wx:for="{{activity}}" wx:for-item="item" wx:for-index="lecture" class="cards">
+<view class="cards">
+<view class="lec-name">{{item.name}}</view>
+<view class="lec-time">时间:{{item.time}}</view>
+</view>
+</div>     
+</scroll-view>
